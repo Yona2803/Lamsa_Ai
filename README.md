@@ -83,11 +83,10 @@ Lamsa-Ai<br>
 ## 🖼️ Screenshots
 
 ### Dark Mode  
-*![Lamsa_Ai-Dark](https://github.com/user-attachments/assets/66be5902-3f9a-4710-acaa-688091f50223)*
+*![Lamsa_Ai-Dark](https://github.com/user-attachments/assets/547a4f54-38de-4dd7-b66b-dc94495a661f)*
 
 ### Light Mode  
-*![Lamsa_Ai-Light](https://github.com/user-attachments/assets/9070022d-534b-49ca-8a21-33ef2d521549)*
-
+*![Lamsa_Ai-Light](https://github.com/user-attachments/assets/c4625753-f2b1-4b72-9045-039f65dd7262)*
 
 ---
 
@@ -95,8 +94,8 @@ Lamsa-Ai<br>
 
 | Variable          | Description                                                                 |
 |-------------------|-----------------------------------------------------------------------------|
-| `GEMINI_API_KEY`  | Your Gemini API key from [Google AI Studio](https://www.studio.google.com/) |
-| `IMGBB_API_KEY`   | *(Optional)* API key from [imgbb.com](https://www.imgbb.com/)               |
+| `GEMINI_API_KEY`  | Your Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey) |
+| `IMGBB_API_KEY`   | *(Optional)* API key from [imgbb.com](https://imgbb.com)               |
 
 ---
 
