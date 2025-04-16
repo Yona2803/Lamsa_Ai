@@ -19,7 +19,7 @@
 Lamsa-Ai<br>
 ├── Assets<br>
 │ ├── Icons # Icons used in the application<br>
-│ └── Images # Additional images like logos<br>
+│ └── Logo # logos used in the application<br>
 ├── BackEnd<br>
 │ └── GEMINI_BackEnd.py # Handles Gemini API integration<br>
 ├── Style<br>
