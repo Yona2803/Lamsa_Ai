@@ -88,24 +88,3 @@ def generateGeminiResponse(imagePath, textPrompt):
         import traceback
         traceback.print_exc()
         return None
-
-# Test the functionality directly
-if __name__ == "__main__":
-    print("Testing Gemini Backend directly")
-    textPrompt = input("Enter your text prompt: ")
-    
-    useImage = input("Do you want to include an image? (y/n): ").lower() == 'y'
-    imagePath = None
-    
-    if useImage:
-        imagePath = input("Enter the path to your image: ")
-        if not os.path.exists(imagePath):
-            print(f"Image not found at {imagePath}")
-            useImage = False
-            imagePath = None
-    
-    result = generateGeminiResponse(imagePath, textPrompt)
-    if result:
-        print(f"Success! Result: \n{result}")
-    else:
-        print("Failed to generate response")
